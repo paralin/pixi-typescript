@@ -19,8 +19,8 @@
     "ts"
   ],
   "devDependencies": {
-    "definition-tester": "^0.2.0",
-    "typescript": "^1.5.3"
+    "definition-tester": "^0.5.2",
+    "typescript": "^2.0.3"
   },
   "scripts": {
     "test": "node ./node_modules/.bin/dt"
