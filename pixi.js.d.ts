@@ -1,6 +1,7 @@
-﻿// Type definitions for Pixi.js v3.0.10
+﻿// Type definitions for Pixi.js v4.0.2
 // Project: https://github.com/GoodBoyDigital/pixi.js/
 // Definitions by: clark-stevenson <https://github.com/pixijs/pixi-typescript>
+// V4 Definitions WIP by Christian Stewart <christian@paral.in>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
 declare module PIXI {
@@ -990,7 +991,8 @@ declare module PIXI {
 
     export interface TextStyle {
 
-        font?: string;
+        fontSize?: string | number;
+        fontFamily?: string;
         fill?: string | number | CanvasGradient | CanvasPattern;
         align?: string;
         stroke?: string | number;
